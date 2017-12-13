@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <audio autoplay loop>
+        <source src="music/ShoujoShuumatsuRyokouOP.mp3" type="audio/mpeg">
+    </audio>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="jQuery/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+</head>
+<body background="https://farm4.staticflickr.com/3940/32677535044_606bd74352_c.jpg"
+      style="background-repeat:no-repeat;background-size:cover;">
+<br>
+<hr>
+<h1 align="center" style="color:#00cccc;">Login Form</h1>
+<hr>
+<br>
+<form action="loginCheck.php" method="post">
+    <center>
+        <div id="circle" style="display: block;">
+            <h1 id="blinking" style="color: rgb(0, 204, 204); display: block; opacity: 0.999561;">Please Login
+                Here</h1>
+            <div id="box" style="height: 280px; width: 450px;">
+                <input type="text" name="account" class="in" placeholder="Username">
+                <br>
+                <input type="password" name="pwd" placeholder="Password" class="in">
+                <input type="submit" name="login" value="Login" id="inBtn" style="color:white;">
+            </div>
+        </div>
+    </center>
+</form>
+
+<br><br><br><br>
+
+<footer>
+    <hr>
+    <p id="copy" align="center"><span style="color: #66ffff">By Tank</span></p>
+    <hr>
+</footer>
+</body>
+</html>

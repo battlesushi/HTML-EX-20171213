@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+.test {
+    font-width: 3000px;
+    font-height: 4em;
+    text-align: center;
+    }
+header{
+    background-image: linear-gradient(rgba(207, 57, 252, 0.59), rgba(75, 255, 116, 0.46)),
+    url(../images/ene.png);
+    background-size:cover;
+    height: 300px;
+    text-align: right;
+}
+
+header h1 {
+    padding-right: 20px;
+    font-size: 60px;
+    color: snow;
+    text-shadow: 4px 3px 1px rgba(247, 255, 56, 0.81);
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+header h2 {
+    padding-right: 20px;
+    font-size: 30px;
+    color: #ff6767;
+    text-shadow: 4px 3px 2px rgba(89, 165, 255, 0.81);
+    letter-spacing: 3px;
+    text-align: right;
+}
+
+/*按鈕*/
+.btn-full:link,
+.btn-full:visited{
+    background-color: rgba(255,128,128,0.3);
+    border: 2px solid #ffcf2d;
+}
+
+/*.btn-ghost:link,*/
+/*.btn-ghost:visited{*/
+    /*border:1px solid #0000ff;*/
+    /*color: #ff5d40;*/
+/*}*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding:30px 50px ;
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    color:#bac2ff;
+    font-size: 17px;
+    transition: background-color 0.4s, border 0.3s, color 0.4s;
+}
+
+.btn:hover{
+    text-shadow: whitesmoke 2px 1px 3px;
+    background-color: rgba(252, 61, 61, 0.7);
+    text-decoration: underline;
+}
+.btn:active{
+    text-decoration: underline;
+}
+
+
+/*
+*   圖片亮暗變化
+*/
+.section-team-member {
+    padding: 0px;
+}
+
+.team-member-showcase {
+    list-style: none;
+    width: 100%;
+}
+.team-member-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+.member-photo {
+    width: 100%;
+    margin: 0px;
+    background-color: #000000;
+    overflow: hidden;
+}
+.member-photo img {
+    opacity: 0.7;
+    width: 100%;
+    margin: 0px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.member-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+/*-------------------*/
+/*  顯示目前所在網頁 */
+/*sub navigation*/
+/*-------------------*/
+.sub-nav {
+    max-width: 1100px;
+    background-image: linear-gradient(rgb(120,80,21),rgb(50,25,100));
+    height: 50px;
+    margin: 1px auto;
+    border-radius: 15px;
+    }
+.sub-nav ul{
+    list-style: none;
+    padding-top: 15px;
+    }
+.sub-nav ul li{
+    display: inline-block;
+    margin-left:20px;
+    background-color:#003eb4;
+    padding: 0px 7px;
+    border-radius: 300px;
+}
+.sub-nav li.active{
+    background-color: rgb(255, 0, 0);
+}
+.sub-nav ul li a:link,
+.sub-nav ul li a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* 功能表*/
+/*
+#sidebar{
+    width: 15%;
+    margin: 0;
+    padding:10px;
+    background-color: darkorange;
+    float:left;
+    height: 200px;
+}*/
